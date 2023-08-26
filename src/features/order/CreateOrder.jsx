@@ -86,7 +86,7 @@ function CreateOrder() {
             )}
           </div>
 
-          {!position.latitude && !position.longitude && (
+          {/* {!position.latitude && !position.longitude && (
             <span className="absolute right-[3px] top-[3px] z-50 md:right-[5px] md:top-[5px]">
               <Button
                 disabled={isLoadingAddress}
@@ -99,7 +99,7 @@ function CreateOrder() {
                 Get position
               </Button>
             </span>
-          )}
+          )} */}
         </div>
 
         <div className="mb-12 flex items-center gap-5">
